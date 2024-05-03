@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JJC Web Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="../img/JJC-LOGO.png">
+</head>
+<body>
+    <div class="main-container">
+        <header>
+            <!-- <div class="container"> -->
+                <h1><a href="index.html">JJC Web Solutions</a></h1>
+            <!-- </div> -->
+        </header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="roles-pricing.html">Roles & Pricing</a></li>
+                    <li><a class="link-active" href="book-now.html">Book Now</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+<!---------------- End of Header ------------------->
+        <div class="container">
+            <h1>BOOK NOW!</h1>
+            <div class="sub-container">
+                <div>
+                    <form class="book-now-form" action="book-now-action.php">
+                        <label for="first-name">Name: </label>
+                        <div class="form-element-wrapper">
+                            <div class="form-div-50">
+                                <input type="text" id="first-name" required>
+                            </div>
+                            <div class="form-div-50">
+                                <input type="text" id="last-name" required>
+                            </div>
+                        </div>
+                        <div class="form-element-wrapper">
+                            <div class="form-div-50">
+                                <p>First</p>
+                            </div>
+                            <div class="form-div-50">
+                                <p>Last</p>
+                            </div>
+                        </div>
+                        <label for="position">Position: </label>
+                        <div class="form-element-wrapper">
+                            <div class="form-div-100">
+                                <input type="text" id="position" name="position" required>
+                            </div>
+                        </div>
+                        <label for="company">Company: </label>
+                        <div class="form-element-wrapper">
+                            <div class="form-div-100">
+                                <input type="text" id="company" name="company" required>
+                            </div>
+                        </div>
+                        <label for="phone-number">Phone Number: </label>
+                        <div class="form-element-wrapper">
+                            <div class="form-div-100">
+                                <input type="number" id="phone-number" name="phone-number" required>
+                            </div>
+                        </div>
+                        <label for="email">Email: </label>
+                        <div class="form-element-wrapper">
+                            <div class="form-div-100">
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <label for="select-service">Book a Service</label>
+                        <div class="form-element-wrapper">
+                            <select>
+                                <option value="website-creation">Website Creation and Maintenance</option>
+                                <option value="content-marketing">Content Marketing</option>
+                                <option value="creative-branding">Creative Branding</option>
+                                <option value="seo">Search Engine Optimization</option>
+                                <option value="ssm">Social Media Marketing</option>
+                                <option value="virtual-assistant">Virtual Assistant</option>
+                                <option value="hosting-domain">Hosting and Domain</option>
+                                <option value="influencer-marketing">Influencer Marketing</option>
+                            </select>
+                        </div>
+                        <label for="target-date">Target Date</label>
+                        <div class="form-element-wrapper">
+                            <input type="date" name="target-date" id="target-date">
+                        </div>
+                        <label for="book-message">Type your message here</label>
+                        <div class="form-element-wrapper">
+                            <textarea name="book-message" id="book-message" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="form-element-wrapper">
+                            <input class="link-btn" type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+<!-- ------------------------------------------------ -->
+        <div class="container">
+            <section id="ready-to-grow">
+                <h3>Ready to grow</h3>
+                <h1>Get your free quote today</h1>
+                <form class="quote" action="" enctype="text/plain">
+                    <input type="url" name="url" placeholder="Web URL" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="submit" name="submit" value="Check Now">
+                </form>
+            </section>
+        </div>
+        <footer>
+            <div>
+               <p>Copyright &copy 2024</p>
+            </div>
+            <div>
+                <p>Metro Manila, Philippines</p>
+             </div>
+             <div>
+                <p>+639668338043</p>
+             </div>
+        </footer>
+    </div>
+    
+</body>
+</html>
