@@ -15,6 +15,7 @@ header{
     margin-left: 30px;
     
 }
+
 header a {
     text-decoration: none;
     color: #449DD1;
@@ -26,6 +27,9 @@ header h1 {
 }
 nav {
     display: inline-block;
+}
+.navbar {
+    margin-bottom: 50px;
 }
 /* nav ul {
     background-color: aqua;
@@ -44,10 +48,10 @@ nav a {
     color: #449dd1;
     padding: 15px;
 }
-nav a:hover {
+/* nav a:hover {
     border-bottom: 1.5px dashed #0E0E52;
     color: #0E0E52;
-}
+} */
 .link-active {
     color: #0E0E52;
 }
@@ -100,6 +104,12 @@ nav a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.display-5 {
+    margin-top: 50px;
+}
+.col-md-4:hover{
+    background-color: #eff2f4;
 }
 .choose-us-img {
     display: block; 
