@@ -28,6 +28,12 @@ header h1 {
 nav {
     display: inline-block;
 }
+.navbar .nav-link{  /*selector from bootstrap */
+    color: #449DD1;
+}
+.navbar .navbar-brand{
+    color: #449DD1;
+}
 .navbar {
     margin-bottom: 50px;
 }
@@ -108,6 +114,7 @@ nav a {
 .display-5 {
     margin-top: 50px;
 }
+
 .col-md-4:hover{
     background-color: #eff2f4;
 }
@@ -127,6 +134,9 @@ nav a {
 .item-box1{
     flex: 1;
 }
+.item-box1:hover, .item-box2:hover, .item-box3:hover{
+    transform: skewY(2deg);
+}
 .item-box2{
     flex: 1;
 }
@@ -134,20 +144,30 @@ nav a {
     flex: 1;
 }
 #ready-to-grow{
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    height: auto;
+    display: flex;
     background-color: #3943B7;
     padding: 40px;
-    margin-bottom: -20px;
+    margin: 20px auto -20px auto;
+    color: white;
 }
-#ready-to-grow h1, #ready-to-grow h3, #ready-to-grow form{
+.row-grow {
+    /* display: flex; */
+    background-color: #3943B7;
+    padding: 40px;
+    margin: 20px auto -20px auto;
+}
+
+#ready-to-grow  h1, #ready-to-grow  h3{
     display: block;
     color: #fff;
 }
-
-
+.form-floating{
+    color: black;
+}
+.col-12 button{
+    padding: 15px;
+    margin-top: 20px;
+}
 .quote{
     display: block;
     margin: auto;
@@ -209,6 +229,9 @@ nav a {
 } 
 .link-btn:hover{
     background-color: #449DD1;
+}
+.top-of-footer{
+    background-color: #3943B7;
 }
 footer {
     padding: 80px;
@@ -303,9 +326,17 @@ footer div{
     text-align: center;
     padding: 10px 0 ;
 }
-.p-description{
+.col-md-6 .p-description{
     color: rgb(36, 77, 125);
     text-align: justify;
+}
+.col-md-6 img{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.col-md-12 h1, .col-md-12 h3 {
+    text-align: center;
 }
 .p-box h4 {
     color: rgb(130, 141, 154);
