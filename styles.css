@@ -161,6 +161,7 @@ nav a {
 #ready-to-grow  h1, #ready-to-grow  h3{
     display: block;
     color: #fff;
+    text-align: center;
 }
 .form-floating{
     color: black;
