@@ -31,13 +31,12 @@ nav {
 .navbar .nav-link{  /*selector from bootstrap */
     color: #449DD1;
 }
-.navbar .navbar-brand, .navbar .navbar-brand:hover{
+.navbar .navbar-brand{
     color: #449DD1;
 }
 .navbar {
     margin-bottom: 50px;
 }
-
 /* nav ul {
     background-color: aqua;
     padding-bottom: 50px;
