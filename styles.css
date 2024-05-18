@@ -2,9 +2,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: "Roboto", sans-serif; /* This from Google Font */
+    font-weight: 400;
+    font-style: normal; /*End of Google Font here */
 }
+
 body{
+font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
     background-color: #fff;
     /* https://coolors.co/78c0e0-449dd1-150578-0e0e52-3943b7 */
 }
@@ -81,6 +89,17 @@ nav a {
 .row {
     margin-top: 10px;
 }
+.row h1{
+    margin-top: 10px;
+}
+.row .col-md-4 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.row .col-md-12 {
+    margin-top: 15px;
+    text-align: justify;
+}
 #showcase{
     margin-top: 100px;
     /* background-color: green; */
@@ -130,10 +149,49 @@ nav a {
 }
 .col-md-4 {
     border-radius: 5px 5px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
+    /* margin: 5px 5px; */
 }
 .col-md-4:hover{
     background-color: #eff2f4;
+}
+.col-package .display-6{
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.col-package {
+    border: 1px solid #e5ecf1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 5px 5px;
+    margin-top: 5px;
+}
+.package-img{
+    width: 85%;
+}
+.col-package:hover{
+    background-color: #edf6f9;
+}
+.col-package .price-description, .col-package-active .price-description{
+    margin-top: 20px;
+}
+.col-package-active{
+    background-color: #150578;
+    border-radius: 5px 5px;
+    margin-top: 5px;
+}
+.col-package-active:hover{
+    /* background-color: #250eba; */
+    opacity: .92;
+}
+.col-package-active .display-6{
+    color: #fff;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.col-package-active .services-img{
+    opacity: 1;
 }
 .choose-us-img {
     display: block; 
@@ -235,6 +293,10 @@ nav a {
     height: 300px;
     margin: auto;
 }
+.d-grid .btn-primary{
+    margin: 30px auto; 
+    border-radius: 50px;
+}
 .link-btn {
     background-color: #0E0E52;
     text-decoration: none;
@@ -311,7 +373,7 @@ footer div{
 .pricing-box {
     border: 1px solid rgb(170, 201, 215);
     border-radius: 5px 5px;
-    margin: 20px;
+    margin: 15px;
     flex-direction: column;
     padding: 20px 20px;
     opacity: .9;
@@ -328,6 +390,9 @@ footer div{
     color:#1c98e0;
     font-size: 2rem;
     text-align: center;
+    font-weight: bolder;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .span-sup{
     vertical-align: super;
