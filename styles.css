@@ -37,6 +37,9 @@ nav {
 .navbar {
     margin-bottom: 50px;
 }
+.navbar .navbar-brand:hover{
+    color: #449DD1;
+}
 /* nav ul {
     background-color: aqua;
     padding-bottom: 50px;
@@ -124,6 +127,9 @@ nav a {
 }
 .col-6 img{
     width: 100%;
+}
+.col-md-4 {
+    border-radius: 5px 5px;
 }
 .col-md-4:hover{
     background-color: #eff2f4;
@@ -305,13 +311,16 @@ footer div{
     border-radius: 5px 5px;
     margin: 20px;
     flex-direction: column;
-    padding: 20px;
+    padding: 20px 20px;
     opacity: .9;
 }
 .pricing-box h1{
     color:#0E0E52;
     text-align: center;
     margin-left: 50px;
+}
+.pricing-box p{
+    line-height: 15px;
 }
 .price-description{
     color:#1c98e0;
