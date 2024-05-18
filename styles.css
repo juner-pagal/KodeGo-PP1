@@ -130,6 +130,7 @@ nav a {
 }
 .col-md-4 {
     border-radius: 5px 5px;
+    margin-top: 5px;
 }
 .col-md-4:hover{
     background-color: #eff2f4;
@@ -296,6 +297,7 @@ footer div{
     flex-direction: column;
     padding: 20px;
     background-color: #e5ecf1;
+    border-radius: 5px 5px;
 }
 
 .p-box:hover {
@@ -314,11 +316,11 @@ footer div{
     padding: 20px 20px;
     opacity: .9;
 }
-.pricing-box h1{
+/* .pricing-box h1{
     color:#0E0E52;
     text-align: center;
     margin-left: 50px;
-}
+} */
 .pricing-box p{
     line-height: 15px;
 }
@@ -555,7 +557,7 @@ footer div{
     width: 300px;
     height: 350px;
     perspective: 1000px;
-    
+    padding: 10px;
   }
   
   .flip-card-inner {
@@ -599,6 +601,7 @@ footer div{
     background-color: #150578;
     color: white;
     transform: rotateY(180deg);
+    border-radius: 5px 5px;
     /* opacity: .8; */
   }
   .flip-card-back h1{
