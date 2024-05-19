@@ -453,14 +453,23 @@ footer div{
 }
 .book-now-form{
     /* display: flex; */
-    width: 50%;
+    /* width: 50%; */
     margin: auto;
     padding: 20px;
     /* background-color: #c0d6e6; */
 }
+.book-now-form label{
+    margin-top: 10px;
+    font-weight: bold;
+}
 .book-now-form label::after{
     content: " *";
     color: red;
+}
+ .input-group .input-group-text {
+    border: none;
+    margin-left: 20px;
+    /* background-color: orange; */
 }
 .form-element-wrapper{
     display: flex;
@@ -482,8 +491,9 @@ footer div{
 .book-now-form input[type="text"], .book-now-form input[type="number"], .book-now-form input[type="email"],.book-now-form input[type="date"], .book-now-form select, .book-now-form textarea{
     padding: 12px 20px;
     width: 100%;
-    border: 1px solid rgb(207, 218, 221);
-    border-radius: 4px;
+    border: 1px solid rgb(146, 152, 154);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
     box-sizing: border-box;
     font-size: 1.2rem;
 }
