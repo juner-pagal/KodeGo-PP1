@@ -69,6 +69,32 @@ nav a {
     border-bottom: 1.5px dashed #0E0E52;
     color: #0E0E52;
 } */
+.hero-image{
+    background-image: url("./img/we-help-you-grow.png");
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-image2{
+    background-image: url("./img/digital-marketing-new.png");
+    /* background-color: #cccccc; */
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    opacity: .8;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: rgb(181, 204, 255);
+    padding: 10px;
+    /* border: 1px solid black; */
+    /* border-radius: 50%; */
+}
 .link-active {
     color: #0E0E52;
 }
